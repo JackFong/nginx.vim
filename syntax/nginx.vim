@@ -643,6 +643,23 @@ syn keyword ngxDirectiveThirdParty xss_get
 syn keyword ngxDirectiveThirdParty xss_input_types
 syn keyword ngxDirectiveThirdParty xss_output_type
 
+" Openresty
+syn keyword ngxDirectiveThirdParty set_by_lua_file
+syn keyword ngxDirectiveThirdParty access_by_lua_file
+syn keyword ngxDirectiveThirdParty content_by_lua_file
+syn keyword ngxDirectiveThirdParty rewrite_by_lua_file
+syn keyword ngxDirectiveThirdParty set_by_lua_block
+syn keyword ngxDirectiveThirdParty access_by_lua_block
+syn keyword ngxDirectiveThirdParty content_by_lua_block
+syn keyword ngxDirectiveThirdParty rewrite_by_lua_block
+syn keyword ngxDirectiveThirdParty set_by_lua
+syn keyword ngxDirectiveThirdParty access_by_lua
+syn keyword ngxDirectiveThirdParty content_by_lua
+syn keyword ngxDirectiveThirdParty rewrite_by_lua
+syn keyword ngxDirectiveThirdParty lua_package_path
+syn keyword ngxDirectiveThirdParty lua_package_cpath
+
+
 " highlight
 
 hi link ngxComment Comment
